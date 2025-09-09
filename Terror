@@ -1,0 +1,157 @@
+<!DOCTYPE html>  <html lang="pt-BR">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Equipe de Gabriel - Sobre Escola</title>  
+    <script src="https://cdn.tailwindcss.com"></script>  
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">  
+    <style>  
+        body {  
+            font-family: 'Roboto', sans-serif;  
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);  
+            min-height: 100vh;  
+        }  
+        .hero {  
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);  
+            color: white;  
+            padding: 5rem 2rem;  
+            text-align: center;  
+        }  
+        .section {  
+            margin: 2rem auto;  
+            max-width: 1000px;  
+            padding: 2rem;  
+            background: white;  
+            border-radius: 12px;  
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+        }  
+        .team-member {  
+            background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);  
+            border-radius: 12px;  
+            padding: 1rem;  
+            text-align: center;  
+            transition: transform 0.3s ease;  
+        }  
+        .team-member:hover {  
+            transform: translateY(-5px);  
+        }  
+        .highlight {  
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);  
+            -webkit-background-clip: text;  
+            -webkit-text-fill-color: transparent;  
+            background-clip: text;  
+            font-weight: bold;  
+        }  
+    </style>  
+</head>  
+<body>  
+    <header class="hero">  
+        <h1 class="text-5xl md:text-7xl font-bold mb-4">Equipe de Gabriel</h1>  
+        <p class="text-xl md:text-2xl mb-6">Trabalho e Discussão sobre Escola</p>  
+        <div class="mb-4">  
+            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/f523cf60-7173-491e-a9eb-755b2d8764a6.png" alt="Retrato de equipe diversa de estudantes e professores colaborando em uma sala de aula moderna, com elementos educacionais como livros e quadros interativos, em atmosfera de aprendizado vibrante e inclusiva" class="w-full max-w-lg mx-auto rounded-xl shadow-2xl" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />  
+            <div class="hidden bg-gray-200 h-64 flex items-center justify-center rounded-xl shadow-2xl">  
+                <span class="text-gray-500">Imagem temporária: Equipe escolar</span>  
+            </div>  
+        </div>  
+    </header>  <main class="container mx-auto px-4 py-8">  
+    <section class="section">  
+        <h2 class="text-3xl font-semibold mb-6 text-center text-blue-600">Sobre a Escola</h2>  
+        <p class="text-lg leading-relaxed mb-6">A escola é o coração da educação, um espaço onde jovens e adultos aprendem, crescem e se desenvolvem. Ela vai além das aulas tradicionais, promovendo valores como amizade, respeito e responsabilidade. Neste trabalho, exploramos a importância da escola pública e como ela molda o futuro das comunidades.</p>  
+        <div class="grid md:grid-cols-2 gap-4">  
+            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/ef1565a0-7db7-4648-9997-80099bba332b.png" alt="Vista externa de uma escola pública bem cuidada em um bairro urbano, com estudantes entrando em fila, bandeira hasteada, jardim cuidado e arquitetura moderna em tons de azul e verde" class="w-full rounded-lg shadow-md" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />  
+            <div class="hidden bg-gray-200 h-48 flex items-center justify-center rounded-lg shadow-md">  
+                <span class="text-gray-500">Imagem temporária: Exterior da escola</span>  
+            </div>  
+            <p class="text-lg leading-relaxed mt-4 md:mt-0">As escolas públicas oferecem oportunidades igualitárias para todos, independentemente de origem social. Elas ensinam não só matérias como matemática e português, mas também habilidades essenciais para a vida, como trabalho em equipe e pensamento crítico.</p>  
+            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/84b48982-a974-4338-86c4-e71d84a0128d.png" alt="Alunos de diferentes idades participando de atividade prática em laboratório de ciências, com microscópios, experimentos químicos e professores orientando, em ambiente luminoso e emocionante" class="w-full rounded-lg shadow-md" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />  
+            <div class="hidden bg-gray-200 h-48 flex items-center justify-center rounded-lg shadow-md">  
+                <span class="text-gray-500">Imagem temporária: Atividade escolar</span>  
+            </div>  
+        </div>  
+    </section>  
+
+    <section class="section">  
+        <h2 class="text-3xl font-semibold mb-6 text-center text-green-600">A Equipe de Gabriel</h2>  
+        <p class="text-lg leading-relaxed mb-6">Gabriel Eder lidera uma equipe dedicada a discutir e promover temas educacionais. Nossa equipe é composta por estudantes, professores e entusiastas da educação que trabalham juntos para destacar o valor da escola em nossas vidas.</p>  
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6">  
+            <div class="team-member">  
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/feadc109-4a06-4333-9c7b-a033a8a239b8.png" alt="Retrato de estudante jovem com cabelos castanhos, sorridente, vestindo uniforme escolar azul, segurando livro sobre educação, em fundo claro representando confiança e dedicação" class="w-24 h-24 mx-auto mb-4 rounded-full shadow-lg" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />  
+                <div class="hidden bg-gray-200 h-24 w-24 mx-auto mb-4 rounded-full shadow-lg flex items-center justify-center">  
+                    <span class="text-gray-500">Perfil</span>  
+                </div>  
+                <h3 class="text-xl font-bold mb-2">Gabriel Eder</h3>  
+                <p class="text-sm">Líder da Equipe - Estudante apaixonado pela educação escolar e suas implicações sociais.</p>  
+                <p class="text-xs mt-2 italic">"A escola é onde sonhos começam."</p>  
+            </div>  
+            <div class="team-member">  
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/62964e35-ba56-4436-bc2f-3cc558c50e1c.png" alt="Retrato de professora mulher com cabelos loiros, usando óculos, sorrindo calorosamente, com fundo de livros escolares empilhados, transmitindo sabedoria e apoio" class="w-24 h-24 mx-auto mb-4 rounded-full shadow-lg" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />  
+                <div class="hidden bg-gray-200 h-24 w-24 mx-auto mb-4 rounded-full shadow-lg flex items-center justify-center">  
+                    <span class="text-gray-500">Perfil</span>  
+                </div>  
+                <h3 class="text-xl font-bold mb-2">Ana Silva</h3>  
+                <p class="text-sm">Especialista em Pedagogia - Professor dedicada a inovar métodos de ensino nas escolas.</p>  
+                <p class="text-xs mt-2 italic">"Educar é transformar o futuro."</p>  
+            </div>  
+            <div class="team-member">  
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/fac01cc6-6e03-44ad-8243-8f2e852e271a.png" alt="Retrato de jovem estudante afrodescendente, com expressão motivada, segurando caderno com anotações sobre matemática, fundo colorido representando criatividade" class="w-24 h-24 mx-auto mb-4 rounded-full shadow-lg" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />  
+                <div class="hidden bg-gray-200 h-24 w-24 mx-auto mb-4 rounded-full shadow-lg flex items-center justify-center">  
+                    <span class="text-gray-500">Perfil</span>  
+                </div>  
+                <h3 class="text-xl font-bold mb-2">Carlos Mendes</h3>  
+                <p class="text-sm">Estudante de Tecnologia - Foca em como a tecnologia pode melhorar a experiência escolar.</p>  
+                <p class="text-xs mt-2 italic">"Aprender com tecnologia é o futuro."</p>  
+            </div>  
+            <div class="team-member">  
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/b0b32716-1783-4c80-ba77-309b0cb3a7d7.png" alt="Retrato de mulher madura, com cabelos grisalhos, vestindo jaqueta profissional, com fundo de globo terrestre e livros, simbolizando experiência global em educação" class="w-24 h-24 mx-auto mb-4 rounded-full shadow-lg" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />  
+                <div class="hidden bg-gray-200 h-24 w-24 mx-auto mb-4 rounded-full shadow-lg flex items-center justify-center">  
+                    <span class="text-gray-500">Perfil</span>  
+                </div>  
+                <h3 class="text-xl font-bold mb-2">Prof. Maria Santos</h3>  
+                <p class="text-sm">Coordenadora Educacional - Especializada em políticas públicas para escolas públicas.</p>  
+                <p class="text-xs mt-2 italic">"Inclusão é chave para o sucesso."</p>  
+            </div>  
+            <div class="team-member">  
+                <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/dd5baa75-7eb5-4546-a7fc-dd9cb39eb466.png" alt="Retrato de adolescente com cabelos curtos, sorriso animado, vestindo camiseta casual com estampa de computador, fundo de circuitos digitais representando inovação" class="w-24 h-24 mx-auto mb-4 rounded-full shadow-lg" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />  
+                <div class="hidden bg-gray-200 h-24 w-24 mx-auto mb-4 rounded-full shadow-lg flex items-center justify-center">  
+                    <span class="text-gray-500">Perfil</span>  
+                </div>  
+                <h3 class="text-xl font-bold mb-2">João Pedro</h3>  
+                <p class="text-sm">Desenvolvedor de Projetos - Trabalha em campanhas para valorizar a educação escolar.</p>  
+                <p class="text-xs mt-2 italic">"Cada projeto é uma história de mudança."</p>  
+            </div>  
+        </div>  
+    </section>  
+
+    <section class="section">  
+        <h2 class="text-3xl font-semibold mb-6 text-center text-purple-600">Missão e Valores</h2>  
+        <p class="text-lg leading-relaxed mb-4">Nossa missão é destacar o papel vital das escolas na formação de cidadãos conscientes. Valorizamos:</p>  
+        <ul class="list-disc list-inside text-lg space-y-2 mb-6">  
+            <li><span class="highlight">Educação Inclusiva:</span> Garantir que todas as vozes sejam ouvidas.</li>  
+            <li><span class="highlight">Inovação:</span> Incorporar novas tecnologias para enriquecer o aprendizado.</li>  
+            <li><span class="highlight">Comunidade:</span> Fomentar laços entre estudantes, professores e famílias.</li>  
+        </ul>  
+        <div class="text-center">  
+            <button id="learnMoreBtn" class="px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-500 text-white font-bold rounded-lg shadow-lg hover:from-blue-600 hover:to-purple-600 transition duration-300">Saiba Mais Sobre Nós</button>  
+            <p id="learnMoreText" class="hidden mt-6 text-xl font-semibold text-center text-blue-700">A equipe de Gabriel acredita que através da educação, podemos construir um mundo melhor e mais justo.</p>  
+        </div>  
+    </section>  
+</main>  
+
+<footer class="bg-gray-800 text-white text-center py-6">  
+    <p>© 2023 Equipe de Gabriel - Trabalho sobre Escola. Criado com HTML, CSS e JavaScript.</p>  
+    <p class="text-sm mt-2">Contato: equipe.gabriel@exemplo.com</p>  
+</footer>  
+
+<script>  
+    document.getElementById('learnMoreBtn').addEventListener('click', function() {  
+        const text = document.getElementById('learnMoreText');  
+        text.classList.toggle('hidden');  
+    });  
+</script>
+
+</body>  
+</html>  
+</content>  
+</create_file>  <attempt_completion>
+
